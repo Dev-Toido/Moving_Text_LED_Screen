@@ -1,0 +1,9 @@
+1. At First the y pointer system needs to be done in order to see the multiplexing thing working or not. The test is to have a plus sign on the window.
+Suggestion: use of the Pointer class.
+2. Now the
+    -----------------
+-----------------------------------------------------------
+window task manager thing is to be made so that the array can be passed on the thing and we could have the windowed vision.
+
+
+The window task manager system was built using the linked list but lost and needs to be made again in the Screen class.

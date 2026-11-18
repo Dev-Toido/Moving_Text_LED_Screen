@@ -1,0 +1,6 @@
+Log Progress
+1. 9th Nov
+
+    The Packages of modules are made consisting the LedScreen, Test_Other_codes, TextFiles, TextToBigMatrix, and with Main,Test class on the root.
+    1. The Screen module is ready almost, with the control of the screen size and LED system.
+    2. The Letters modules are also done but the resolution and smoothness still needs to be fine tuned with the build of own module with the considerations of other connection with it.
