@@ -16,7 +16,7 @@ public class BigLetters {
     public BigLetters(String str, int scale,int space) {
         originalString = str;
         length = str.trim().length();
-        str=str.toUpperCase();
+        str=str.trim().toUpperCase();
         this.scale =scale;
         this.space=space;
         let = new Letters[length];

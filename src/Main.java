@@ -6,12 +6,12 @@ import java.util.LinkedList;
 public class Main {
 	// Terminal dimensions
 	private static final int SCALE = 3;
-	private static final int WIDTH = 100;
+	private static final int WIDTH = 111;
 	private static final int HEIGHT = 5*SCALE;
 
 	public static void main(String[] args) throws InterruptedException{
 		try {
-			String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			String str = "Hi Viewers, Wishing you a Happy Diwali and Good Health.";
 			Screen s = new Screen(HEIGHT,WIDTH);
 			BigLetters l = new BigLetters(str,SCALE,2);
 			LinkedList<Integer>[] window = l.wholeRowWiseMat();
@@ -43,7 +43,7 @@ public class Main {
 					window[i].add(window[i].removeFirst());
 				}
 
-				// Frame rate control (~30 frames per second)
+				// Frame rate control (~16.7 frames per second)
 				Thread.sleep(60);
 
 
